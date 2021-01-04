@@ -18,6 +18,13 @@ class Controller_Api_Drpage extends Controller
         // return Response::forge(View::forge('api/drpage/score'), $data);
         print_r($data);
 
+{
+        "UserInfo" : [
+            { "id" : 1,  "name" : "samurai1", "like-lang" : "php" },
+            { "id" : 2,  "name" : "samurai2", "like-lang" : "javascript"},
+            { "id" : 3,  "name" : "samurai3", "like-lang" : "ruby" }
+         ]
+        }
 
 
 
